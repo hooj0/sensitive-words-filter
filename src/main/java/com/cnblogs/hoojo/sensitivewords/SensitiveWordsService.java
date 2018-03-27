@@ -12,14 +12,14 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.cnblogs.hoojo.sensitivewords.business.dao.SensitiveWordsDao;
+import com.cnblogs.hoojo.sensitivewords.business.enums.SensitiveWordsType;
+import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 import com.cnblogs.hoojo.sensitivewords.cache.RedisWordsCache;
-import com.cnblogs.hoojo.sensitivewords.dao.SensitiveWordsDao;
-import com.cnblogs.hoojo.sensitivewords.enums.SensitiveWordsType;
 import com.cnblogs.hoojo.sensitivewords.event.CacheChangedEvent;
 import com.cnblogs.hoojo.sensitivewords.event.CacheChangedEvent.Action;
 import com.cnblogs.hoojo.sensitivewords.event.WordsCacheContext;
 import com.cnblogs.hoojo.sensitivewords.log.ApplicationLogging;
-import com.cnblogs.hoojo.sensitivewords.model.SensitiveWords;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 

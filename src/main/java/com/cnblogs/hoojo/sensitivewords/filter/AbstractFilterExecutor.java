@@ -4,12 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.util.List;
 
-import com.cnblogs.hoojo.sensitivewords.cache.JvmWordsCache;
+import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 import com.cnblogs.hoojo.sensitivewords.event.CacheChangedEvent;
 import com.cnblogs.hoojo.sensitivewords.event.WordsCacheContext.CacheChangedListener;
-import com.cnblogs.hoojo.sensitivewords.model.SensitiveWords;
 
 /**
  * 抽象敏感词过滤执行器，提供过滤的缓存初始化、刷新、销毁基础封装

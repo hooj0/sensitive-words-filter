@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.cnblogs.hoojo.sensitivewords.model.SensitiveWords;
+import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterators;
 import com.google.common.collect.Lists;

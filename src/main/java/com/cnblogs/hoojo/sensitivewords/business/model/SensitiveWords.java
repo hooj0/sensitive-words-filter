@@ -1,4 +1,4 @@
-package com.cnblogs.hoojo.sensitivewords.model;
+package com.cnblogs.hoojo.sensitivewords.business.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -6,7 +6,7 @@ import java.util.Date;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 
-import com.cnblogs.hoojo.sensitivewords.enums.SensitiveWordsType;
+import com.cnblogs.hoojo.sensitivewords.business.enums.SensitiveWordsType;
 
 
 /**

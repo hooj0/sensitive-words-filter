@@ -2,7 +2,7 @@ package com.cnblogs.hoojo.sensitivewords.cache;
 
 import java.util.List;
 
-import com.cnblogs.hoojo.sensitivewords.model.SensitiveWords;
+import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 
 /**
  * 敏感词库缓存

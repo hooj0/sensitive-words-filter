@@ -8,8 +8,9 @@ import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
 
+import com.cnblogs.hoojo.sensitivewords.business.enums.SensitiveWordsType;
+import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 import com.cnblogs.hoojo.sensitivewords.cache.RedisWordsCache;
-import com.cnblogs.hoojo.sensitivewords.enums.SensitiveWordsType;
 import com.cnblogs.hoojo.sensitivewords.factory.FilterType;
 import com.cnblogs.hoojo.sensitivewords.filter.AbstractFilterExecutor;
 import com.cnblogs.hoojo.sensitivewords.filter.bucket.executor.HashBucketFilterExecutor;
@@ -17,7 +18,6 @@ import com.cnblogs.hoojo.sensitivewords.filter.dat.exectuor.DatFilterExecutor;
 import com.cnblogs.hoojo.sensitivewords.filter.dfa.executor.DfaFilterExecutor;
 import com.cnblogs.hoojo.sensitivewords.filter.tire.executor.TireTreeFilterExecutor;
 import com.cnblogs.hoojo.sensitivewords.filter.ttmp.executor.TtmpFilterExecutor;
-import com.cnblogs.hoojo.sensitivewords.model.SensitiveWords;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 

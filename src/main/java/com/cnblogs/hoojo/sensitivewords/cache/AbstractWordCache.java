@@ -2,10 +2,10 @@ package com.cnblogs.hoojo.sensitivewords.cache;
 
 import java.util.List;
 
+import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 import com.cnblogs.hoojo.sensitivewords.event.CacheChangedEvent;
 import com.cnblogs.hoojo.sensitivewords.event.WordsCacheContext.CacheChangedListener;
 import com.cnblogs.hoojo.sensitivewords.log.ApplicationLogging;
-import com.cnblogs.hoojo.sensitivewords.model.SensitiveWords;
 
 /**
  * abstract word cache template method

@@ -1,10 +1,10 @@
-package com.cnblogs.hoojo.sensitivewords.dao;
+package com.cnblogs.hoojo.sensitivewords.business.dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.cnblogs.hoojo.sensitivewords.model.SensitiveWords;
+import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 
 /**
  * <b>function:</b> 敏感词库 MyBatis数据库操作

@@ -1,4 +1,4 @@
-package com.cnblogs.hoojo.sensitivewords.enums;
+package com.cnblogs.hoojo.sensitivewords.business.enums;
 
 public enum SensitiveWordsType {
 	/** 色情 */
