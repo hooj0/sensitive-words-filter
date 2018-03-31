@@ -9,7 +9,7 @@ import com.cnblogs.hoojo.sensitivewords.filter.tire.TireTreeFilter;
 import com.cnblogs.hoojo.sensitivewords.filter.ttmp.TtmpFilter;
 
 /**
- * 实现类型
+ * 敏感词算法实现类型
  * @author hoojo
  * @createDate 2018年2月2日 下午4:28:11
  * @file FilterType.java
