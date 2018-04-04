@@ -8,6 +8,7 @@ import com.google.common.collect.Sets;
 
 /**
  * 各算法支持类抽象接口
+ * 
  * @author hoojo
  * @createDate 2018年2月7日 下午6:35:02
  * @file AbstractSensitiveWordsFilterSupport.java
