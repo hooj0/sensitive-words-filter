@@ -3,7 +3,8 @@ package com.cnblogs.hoojo.sensitivewords.filter;
 import java.util.Set;
 
 /**
- * 敏感词库接口
+ * 敏感词库接口定义
+ * 
  * @author hoojo
  * @createDate 2018年2月2日 下午4:03:46
  * @file SensitiveWordsFilter.java
