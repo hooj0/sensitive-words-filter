@@ -15,7 +15,6 @@ package com.cnblogs.hoojo.sensitivewords.filter.dat.exectuor;
  * License (the "BSD").
  * </p>
  */
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
