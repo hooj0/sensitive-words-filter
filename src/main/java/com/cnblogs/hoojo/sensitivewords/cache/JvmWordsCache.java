@@ -11,7 +11,6 @@ import com.google.common.collect.Lists;
 
 /**
  * Jvm 敏感词缓存
- * 
  * @author hoojo
  * @createDate 2018年2月2日 下午4:56:38
  * @file JvmWordsCache.java
