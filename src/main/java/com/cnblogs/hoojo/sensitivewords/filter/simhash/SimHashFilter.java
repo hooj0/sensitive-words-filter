@@ -5,6 +5,7 @@ import com.cnblogs.hoojo.sensitivewords.filter.simhash.executor.SimHashFilterExe
 
 /**
  * simhash 算法
+ * 
  * @author hoojo
  * @createDate 2018年3月23日 下午5:55:49
  * @file SimHashFilter.java
