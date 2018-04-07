@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 
 /**
- * <b>function:</b> 敏感词库 MyBatis数据库操作
+ * 敏感词库 MyBatis数据库操作
  * @author hoojo
  * @createDate 2018-02-02 14:54:58
  * @file SensitiveWordsDao.java
