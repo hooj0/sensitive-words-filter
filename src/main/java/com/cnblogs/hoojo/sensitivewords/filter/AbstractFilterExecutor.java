@@ -11,6 +11,7 @@ import com.cnblogs.hoojo.sensitivewords.event.WordsCacheContext.CacheChangedList
 
 /**
  * 抽象敏感词过滤执行器，提供过滤的缓存初始化、刷新、销毁基础封装
+ * 
  * @author hoojo
  * @createDate 2018年3月21日 下午2:54:07
  * @file AbstractFilterExecutor.java
