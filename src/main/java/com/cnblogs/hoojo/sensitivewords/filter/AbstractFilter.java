@@ -5,7 +5,8 @@ import java.util.Set;
 import com.cnblogs.hoojo.sensitivewords.event.WordsCacheContext;
 
 /**
- * 抽象过滤脱敏实现
+ * 抽象过滤脱敏接口实现
+ * 
  * @author hoojo
  * @createDate 2018年3月22日 上午9:30:25
  * @file AbstractFilter.java
