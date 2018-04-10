@@ -11,8 +11,6 @@ import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
  * @author hoojo
  * @createDate 2018-02-02 14:54:58
  * @file SensitiveWordsDao.java
- * @package com.masget.business.dao.mgbase.sensitivewords
- * @project fengkong
  * @blog http://hoojo.cnblogs.com
  * @email hoojo_@126.com
  * @version 1.0
