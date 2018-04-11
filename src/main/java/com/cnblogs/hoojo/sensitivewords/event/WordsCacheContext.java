@@ -8,8 +8,7 @@ import com.cnblogs.hoojo.sensitivewords.cache.RedisWordsCache;
 import com.cnblogs.hoojo.sensitivewords.log.ApplicationLogging;
 
 /**
- * 目标事件源对象
- * 
+ * 目标事件源对象上下文
  * @author hoojo
  * @createDate 2018年2月5日 下午5:22:47
  * @file TargetEventSource.java
