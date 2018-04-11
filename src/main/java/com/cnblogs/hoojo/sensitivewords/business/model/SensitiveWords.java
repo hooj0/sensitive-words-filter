@@ -10,7 +10,7 @@ import com.cnblogs.hoojo.sensitivewords.business.enums.SensitiveWordsType;
 
 
 /**
- * <b>function:</b> 敏感词库
+ * 敏感词库
  * @author hoojo
  * @createDate 2018-02-02 14:54:58
  * @file SensitiveWords.java
