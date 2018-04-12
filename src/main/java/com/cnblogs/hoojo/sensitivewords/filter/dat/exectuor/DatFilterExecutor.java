@@ -6,6 +6,7 @@ import com.cnblogs.hoojo.sensitivewords.filter.AbstractFilterExecutor;
 
 /**
  * 双数组算法过滤敏感词
+ * 
  * @author hoojo
  * @createDate 2018年3月21日 下午3:28:21
  * @package com.cnblogs.hoojo.sensitivewords.filter.dat.exectuor
