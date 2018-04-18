@@ -7,7 +7,6 @@ import com.google.common.collect.Maps;
 
 /**
  * dfa多叉树模型
- * 
  * @author hoojo
  * @createDate 2018年2月8日 下午8:23:27
  * @file DfaNode.java
