@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * <b>function:</b> 系统调试、操作、错误日志基类
+ * 系统调试、操作、错误日志基类
  * 
  * @author hoojo
  * @createDate 2012-2-9 上午11:46:30
