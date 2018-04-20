@@ -6,6 +6,7 @@ import com.cnblogs.hoojo.sensitivewords.business.model.SensitiveWords;
 
 /**
  * 敏感词库缓存
+ * 
  * @author hoojo
  * @createDate 2018年2月2日 下午4:57:07
  * @file WordsCache.java
