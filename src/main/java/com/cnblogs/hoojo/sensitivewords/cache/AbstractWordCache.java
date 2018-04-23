@@ -8,7 +8,7 @@ import com.cnblogs.hoojo.sensitivewords.event.WordsCacheContext.CacheChangedList
 import com.cnblogs.hoojo.sensitivewords.log.ApplicationLogging;
 
 /**
- * abstract word cache template method
+ * abstract word cache interface method
  * @author hoojo
  * @createDate 2018年2月6日 下午2:33:54
  * @file AbstractWordCache.java
