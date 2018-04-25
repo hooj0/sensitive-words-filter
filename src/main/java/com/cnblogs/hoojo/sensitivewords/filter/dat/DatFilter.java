@@ -5,6 +5,7 @@ import com.cnblogs.hoojo.sensitivewords.filter.dat.exectuor.DatFilterExecutor;
 
 /**
  * DAT 算法实现敏感词脱敏过滤
+ * 
  * @author hoojo
  * @createDate 2018年2月2日 下午4:23:20
  * @file DFASWFilter.java
