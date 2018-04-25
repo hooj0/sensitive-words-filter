@@ -1,5 +1,16 @@
 package com.cnblogs.hoojo.sensitivewords.business.enums;
 
+/**
+ * 过滤敏感词类型
+ * @author hoojo
+ * @createDate 2018年9月24日 下午9:16:04
+ * @file SensitiveWordsType.java
+ * @package com.cnblogs.hoojo.sensitivewords.business.enums
+ * @project sensitive-words-filter
+ * @blog http://hoojo.cnblogs.com
+ * @email hoojo_@126.com
+ * @version 1.0
+ */
 public enum SensitiveWordsType {
 	/** 色情 */
 	PORNO(1, "色情"), 
