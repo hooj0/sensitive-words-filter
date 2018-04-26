@@ -5,6 +5,7 @@ import com.cnblogs.hoojo.sensitivewords.filter.tire.executor.TireTreeFilterExecu
 
 /**
  * trie 树算法实现敏感词脱敏过滤
+ * 
  * @author hoojo
  * @createDate 2018年2月2日 下午4:22:23
  * @file TrieSWFilter.java
