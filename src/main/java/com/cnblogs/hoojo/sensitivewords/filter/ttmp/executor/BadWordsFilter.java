@@ -4,6 +4,17 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
+/**
+ * 敏感词过滤
+ * @author hoojo
+ * @createDate 2018年9月24日 下午9:31:52
+ * @file BadWordsFilter.java
+ * @package com.cnblogs.hoojo.sensitivewords.filter.ttmp.executor
+ * @project sensitive-words-filter
+ * @blog http://hoojo.cnblogs.com
+ * @email hoojo_@126.com
+ * @version 1.0
+ */
 public class BadWordsFilter {
 
 	// 保存所有脏词
