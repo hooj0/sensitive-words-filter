@@ -5,7 +5,8 @@ import com.cnblogs.hoojo.sensitivewords.cache.RedisWordsCache;
 import com.cnblogs.hoojo.sensitivewords.log.ApplicationLogging;
 
 /**
- * 敏感词库抽象接口
+ * 敏感词库抽象接口实现
+ * 
  * @author hoojo
  * @createDate 2018年2月2日 下午4:09:02
  * @file AbstractSensitiveWordsFilter.java
