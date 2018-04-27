@@ -1,5 +1,6 @@
 
 
+
 # 敏感词过滤、脱敏
 
 [TOC]
@@ -53,6 +54,7 @@ DfaFilterExecutor.getInstance().put("走四方");
 > 匹配敏感词会把符合的敏感词都找到，该方法有两个参数
 
 + **接口说明：**
+
 ```java
 /**
 * 返回匹配到的敏感词语
@@ -66,6 +68,7 @@ public Set<String> getWords(boolean partMatch, String content) throws RuntimeExc
 ```
 
 + **运行示例：**
+
 ```java
 String content = "我们中国人都是好人，在他们中间有男人和女人。中国男人很惨，中国人民长期被压迫。";
 System.out.println(DfaFilterExecutor.getInstance().getWords(true, content));
@@ -86,6 +89,7 @@ System.out.println(DfaFilterExecutor.getInstance().getWords(false, content));
 
 
 + **接口说明：**
+
 ```java
 /**
 * 过滤敏感词，并把敏感词替换为指定字符
@@ -101,6 +105,7 @@ public String filter(boolean partMatch, String content, char replaceChar) throws
 ```
 
 + **运行示例：**
+
 ```java
 System.out.println(DfaFilterExecutor.getInstance().filter(false, content, '*'));
 ```
@@ -119,13 +124,15 @@ System.out.println(DfaFilterExecutor.getInstance().filter(false, content, '*'));
 
 ```java
 /**
-* html高亮敏感词
-* @author hoojo
-* @createDate 2018年2月9日 下午4:37:33
-* @param partMatch 是否部分匹配
-* @param content 被匹配的语句
-* @return 返回html高亮敏感词
-* @throws RuntimeException
+ * html高亮敏感词
+ * @author hoojo
+ * @createDate 2018年2月9日 下午4:37:33
+ * @param partMatch 是否部分匹配
+ * @param content 被匹配的语句
+ * @return 返回html高亮敏感词
+ * @throws RuntimeException
+ */
+public String highlight(boolean partMatch, String content) throws RuntimeException;
 ```
 
 + **运行示例：**
@@ -199,3 +206,4 @@ true
 
 `TIRE`算法在大量文本情况下，效率稍低。可以优化下查找速度。
 
+>>>>>>> 0cc0b32b82ef21f590ea7686de9f0a6ae7fb98a1
