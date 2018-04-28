@@ -11,7 +11,7 @@ import com.cnblogs.hoojo.sensitivewords.log.ApplicationLogging;
 import com.google.common.base.Optional;
 
 /**
- * 分词执行器
+ * 分词执行器工具类
  * 
  * @author hoojo
  * @createDate 2018年2月2日 下午4:25:38
