@@ -26,7 +26,7 @@ import com.google.common.collect.Lists;
 
 
 /**
- * <b>function:</b> 敏感词库服务接口业务实现
+ * 敏感词库服务接口业务实现
  * @author hoojo
  * @createDate 2018-02-02 14:54:58
  * @file SensitiveWords.java
