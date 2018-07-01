@@ -122,16 +122,16 @@ System.out.println(DfaFilterExecutor.getInstance().filter(false, content, '*'));
 + **接口介绍：**
 
 ```java
-  /**
-	 * html高亮敏感词
-	 * @author hoojo
-	 * @createDate 2018年2月9日 下午4:37:33
-	 * @param partMatch 是否部分匹配
-	 * @param content 被匹配的语句
-	 * @return 返回html高亮敏感词
-	 * @throws RuntimeException
-	 */
-	public String highlight(boolean partMatch, String content) throws RuntimeException;
+/**
+ * html高亮敏感词
+ * @author hoojo
+ * @createDate 2018年2月9日 下午4:37:33
+ * @param partMatch 是否部分匹配
+ * @param content 被匹配的语句
+ * @return 返回html高亮敏感词
+ * @throws RuntimeException
+ */
+public String highlight(boolean partMatch, String content) throws RuntimeException;
 ```
 
 + **运行示例：**
