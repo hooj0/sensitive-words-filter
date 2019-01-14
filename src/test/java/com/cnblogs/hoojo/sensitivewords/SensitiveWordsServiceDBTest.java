@@ -28,7 +28,7 @@ import junit.framework.TestCase;
  * @author hoojo
  * @createDate 2018年2月2日 下午5:40:21
  * @file SensitiveWordsTest.java
- * @package com.masget.business.service.mgbase.sensitivewords
+ * @package com.hoojo.business.service.mgbase.sensitivewords
  * @project fengkong-service-provider
  * @blog http://hoojo.cnblogs.com
  * @email hoojo_@126.com
