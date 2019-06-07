@@ -79,7 +79,7 @@ public abstract class AbstractSensitiveWordsFilterSupport extends AbstractSensit
 	
 	@Override
 	public String highlight(boolean partMatch, String content) throws RuntimeException {
-		Set<String> words = this.getWords(false, content);
+		Set<String> words = this.getWords(partMatch, content);
 		
 		Iterator<String> iter = words.iterator();
 		while (iter.hasNext()) {
