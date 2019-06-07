@@ -49,6 +49,7 @@ public class SensitiveWords implements Serializable{
 
 	public SensitiveWords(String word) {
 		super();
+		this.word = word;
 	}
 
 	/** 主键id */
