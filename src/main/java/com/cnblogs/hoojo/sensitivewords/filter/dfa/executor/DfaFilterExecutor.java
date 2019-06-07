@@ -152,12 +152,15 @@ public final class DfaFilterExecutor extends AbstractFilterExecutor<HashMap<Char
 		System.out.println(DfaFilterExecutor.getInstance().getWords(true, content));
 		System.out.println(DfaFilterExecutor.getInstance().getWords(false, content));
 		System.out.println(DfaFilterExecutor.getInstance().filter(false, content, '*'));
+		System.out.println(DfaFilterExecutor.getInstance().highlight(true, content));
 		System.out.println(DfaFilterExecutor.getInstance().highlight(false, content));
 		
 		content = "一举成名走四方的是什么";
 		System.out.println(DfaFilterExecutor.getInstance().getWords(true, content));
 		System.out.println(DfaFilterExecutor.getInstance().getWords(false, content));
 		System.out.println(DfaFilterExecutor.getInstance().filter(false, content, '*'));
+		System.out.println(DfaFilterExecutor.getInstance().highlight(true, content));
 		System.out.println(DfaFilterExecutor.getInstance().highlight(false, content));
+		
 	}
 }
