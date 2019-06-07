@@ -49,7 +49,7 @@ public final class SensitiveWordsFilterUtils extends ApplicationLogging {
 		if (StringUtils.isBlank(content)) {
 			throw new RuntimeException("必填参数content 为空");
 		}
-		debug("执行“过滤”敏感词接口：{}，算法：{}", type.getClazz().getSimpleName(), type.getDesc());
+		debug("执行敏感词接口：{}，算法：{}", type.getClazz().getSimpleName(), type.getDesc());
 		
 		AbstractSensitiveWordsFilter wordsFilter = SensitiveWordsFactory.create(type);
 
@@ -73,7 +73,7 @@ public final class SensitiveWordsFilterUtils extends ApplicationLogging {
 			throw new RuntimeException("必填参数content 为空");
 		}
 
-		debug("执行“过滤”敏感词接口：{}，算法：{}", type.getClazz().getSimpleName(), type.getDesc());
+		debug("执行敏感词接口：{}，算法：{}", type.getClazz().getSimpleName(), type.getDesc());
 		AbstractSensitiveWordsFilter wordsFilter = SensitiveWordsFactory.create(type);
 
 		wordsFilter.initAll();
@@ -99,7 +99,7 @@ public final class SensitiveWordsFilterUtils extends ApplicationLogging {
 			throw new RuntimeException("必填参数content 为空");
 		}
 
-		debug("执行“过滤”敏感词接口：{}，算法：{}", type.getClazz().getSimpleName(), type.getDesc());
+		debug("执行“高亮”敏感词接口：{}，算法：{}", type.getClazz().getSimpleName(), type.getDesc());
 		AbstractSensitiveWordsFilter wordsFilter = SensitiveWordsFactory.create(type);
 
 		wordsFilter.initAll();
