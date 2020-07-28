@@ -60,9 +60,9 @@ public final class DfaFilterExecutor extends AbstractFilterExecutor<HashMap<Char
 			} 
 			if (nextNode == null) {
 				nextNode = new DfaNode(nextChar);
+				node.addChild(nextNode);
 			}
-			
-			node.addChild(nextNode);
+
 			node = nextNode;
 			
 			if (i == word.length() - 1) {
