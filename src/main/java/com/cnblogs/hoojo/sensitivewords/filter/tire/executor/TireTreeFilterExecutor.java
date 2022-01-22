@@ -124,9 +124,9 @@ public final class TireTreeFilterExecutor extends AbstractFilterExecutor<TireTre
 			} 
 			if (nextNode == null) {
 				nextNode = new TireTreeNode(nextChar);
+				node.addChild(nextNode);
 			}
-			
-			node.addChild(nextNode);
+
 			node = nextNode;
 			
 			if (i == word.length() - 1) {
