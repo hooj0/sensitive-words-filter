@@ -18,7 +18,7 @@
 		<plexus_compiler_javac>1.8.1</plexus_compiler_javac>
 		<maven_shade_plugin>1.7.1</maven_shade_plugin>
 		<maven_resources_plugin>2.6</maven_resources_plugin>
-		<spring_version>3.2.9.RELEASE</spring_version>
+		<spring_version>3.2.18.RELEASE</spring_version>
 	</properties>
 
 	<dependencies>
